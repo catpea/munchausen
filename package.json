@@ -1,0 +1,22 @@
+{
+  "author": "Cat Pea <corporate.miou@gmail.com> (https://catpea.com/)",
+  "type": "module",
+  "name": "munchausen",
+  "version": "1.0.0",
+  "description": "Wrap operating system commands with a duplex streams.",
+  "main": "index.js",
+  "scripts": {
+    "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;",
+    "test": "./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catpea/munchausen.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catpea/munchausen/issues"
+  },
+  "homepage": "https://github.com/catpea/munchausen#readme"
+}
