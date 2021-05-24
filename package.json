@@ -2,7 +2,7 @@
   "author": "Cat Pea <corporate.miou@gmail.com> (https://catpea.com/)",
   "type": "module",
   "name": "munchausen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrap operating system commands with a duplex streams.",
   "main": "index.js",
   "scripts": {
