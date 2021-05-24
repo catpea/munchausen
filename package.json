@@ -3,7 +3,7 @@
   "type": "module",
   "name": "munchhausen",
   "version": "1.0.3",
-  "description": "Wrap operating system commands with a duplex streams.",
+  "description": "Wrap operating system commands with duplex streams.",
   "main": "index.js",
   "scripts": {
     "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;",
