@@ -2,8 +2,8 @@
   "author": "Cat Pea <corporate.miou@gmail.com> (https://catpea.com/)",
   "type": "module",
   "name": "munchhausen",
-  "version": "1.0.6",
-  "description": "Wrap operating system commands with duplex streams.",
+  "version": "1.0.9",
+  "description": "Automatically wrap operating system commands with duplex streams.",
   "main": "index.js",
   "scripts": {
     "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;",

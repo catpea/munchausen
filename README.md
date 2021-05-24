@@ -1,5 +1,5 @@
 # munchhausen
-Wrap operating system commands with duplex streams.
+Automatically wrap operating system commands with duplex streams.
 
 Named after [Baron Munchausen](https://en.wikipedia.org/wiki/Baron_Munchausen) who pulled him self out of a lake by his own hair.
 ![muenchhausen.jpg](muenchhausen.jpg)
