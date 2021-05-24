@@ -8,7 +8,7 @@ Named after [Baron Munchausen](https://en.wikipedia.org/wiki/Baron_Munchausen) w
 
 ```JavaScript
 import { pipeline } from 'stream';
-import { munchhausen } from 'munchhausen';
+import munchhausen from 'munchhausen';
 const {cat, grep} = munchhausen;
 pipeline(
   cat('package.json'),
