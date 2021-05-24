@@ -15,7 +15,7 @@ pipeline(
   grep('name'),
   err => console.error
 ).once('readable', function () {
-  console.log( this.read().toString()) //  "name": "bashscript",\n
+  console.log( this.read().toString()) //  "name": "munchhausen",\n
 })
 
 ```
