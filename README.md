@@ -1,4 +1,4 @@
-# munchausen
+# munchhausen
 Wrap operating system commands with a duplex streams.
 
 Named after [Baron Munchausen](https://en.wikipedia.org/wiki/Baron_Munchausen) who pulled him self out of a lake by his own hair.
@@ -8,8 +8,8 @@ Named after [Baron Munchausen](https://en.wikipedia.org/wiki/Baron_Munchausen) w
 
 ```JavaScript
 import { pipeline } from 'stream';
-import { munchausen } from 'munchausen';
-const {cat, grep} = munchausen;
+import { munchhausen } from 'munchhausen';
+const {cat, grep} = munchhausen;
 pipeline(
   cat('package.json'),
   grep('name'),
