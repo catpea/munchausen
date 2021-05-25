@@ -15,7 +15,7 @@ pipeline(
   ...await Promise.all([
     cat("package.json"),
     grep(echo("name"))
-  ])
+  ]),
 
   err => console.error
 ).once('readable', function () {
