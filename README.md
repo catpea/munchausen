@@ -11,8 +11,12 @@ import { pipeline } from 'stream';
 import munchhausen from 'munchhausen';
 const {cat, grep} = munchhausen;
 pipeline(
-  cat('package.json'),
-  grep('name'),
+
+  ...await Promise.all([
+    cat("package.json"),
+    grep(echo("name"))
+  ])
+
   err => console.error
 ).once('readable', function () {
   console.log( this.read().toString()) //  "name": "munchhausen",\n
